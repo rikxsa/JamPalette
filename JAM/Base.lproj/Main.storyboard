@@ -1,25 +1,261 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="iqR-ya-Tre">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R5i-JQ-s2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="7Nc-Mn-l5B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EBN-uh-xzE"/>
+                        <viewControllerLayoutGuide type="bottom" id="HWc-0T-RI4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nyf-TL-TSg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUd-pd-ObJ">
+                                <rect key="frame" x="-57" y="-108" width="557" height="884"/>
+                                <state key="normal" title="Button" image="Top.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="a9t-H3-bSj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-652.5" y="332.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="JAM" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="tkg-3b-crl">
+                                <rect key="frame" x="250" y="285" width="126" height="129"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="aus-Wg-m3G">
+                                <rect key="frame" x="0.0" y="411" width="126" height="128"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="gYT-Y4-VU3">
+                                <rect key="frame" x="0.0" y="539" width="126" height="128"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="gKz-5W-zVq">
+                                <rect key="frame" x="0.0" y="285" width="125" height="127"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="6.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dsf-8O-kCr">
+                                <rect key="frame" x="125" y="410" width="125" height="129"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="7.png" translatesAutoresizingMaskIntoConstraints="NO" id="Miw-7n-jnC">
+                                <rect key="frame" x="250" y="412" width="125" height="127"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZBO-Bf-kT8">
+                                <rect key="frame" x="124" y="285" width="126" height="128"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="ue.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Nu-dK-65f">
+                                <rect key="frame" x="249" y="539" width="126" height="128"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="sita.png" translatesAutoresizingMaskIntoConstraints="NO" id="M7s-7p-TW6">
+                                <rect key="frame" x="125" y="539" width="125" height="128"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="title.png" translatesAutoresizingMaskIntoConstraints="NO" id="53d-fu-ZYW">
+                                <rect key="frame" x="0.0" y="-21" width="383" height="189"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lge-aB-zIC">
+                                <rect key="frame" x="0.0" y="153" width="53" height="130"/>
+                                <state key="normal" title="Button" image="C.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4R-0L-ppi">
+                                <rect key="frame" x="107" y="153" width="55" height="130"/>
+                                <state key="normal" title="Button" image="E.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hXe-Eu-PtY" kind="show" id="TUj-fd-x2F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZQ-rs-yJb">
+                                <rect key="frame" x="162" y="153" width="54" height="130"/>
+                                <state key="normal" title="Button" image="F.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AbL-Hg-gNc" kind="show" id="y9O-Yc-Cqy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgy-f5-AIc">
+                                <rect key="frame" x="215" y="153" width="54" height="130"/>
+                                <state key="normal" title="Button" image="G.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuS-uK-03U">
+                                <rect key="frame" x="268" y="153" width="53" height="130"/>
+                                <state key="normal" title="Button" image="A.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4LW-H1-hUg" kind="show" id="r2r-by-rRD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAj-6M-lqi">
+                                <rect key="frame" x="321" y="153" width="54" height="130"/>
+                                <state key="normal" title="Button" image="B.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="V2p-Qg-izc" kind="show" id="AGV-JA-oHk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGD-Bv-oyc">
+                                <rect key="frame" x="52" y="153" width="55" height="130"/>
+                                <state key="normal" title="Button" image="D.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ot9-FL-4h9" kind="show" id="hUR-XK-31s"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-109.5" y="332.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gmo-vh-LU2">
+            <objects>
+                <viewController id="hXe-Eu-PtY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hdh-tI-tTG"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZBx-fw-6EK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Bg-Fd-Fhw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hx3-Lu-dWy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92.5" y="1168.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Oq1-d7-sER">
+            <objects>
+                <viewController id="AbL-Hg-gNc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XaG-cz-YIt"/>
+                        <viewControllerLayoutGuide type="bottom" id="W6M-aF-FQ0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2UM-pH-LnL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gih-0i-ZWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351.5" y="1168.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Llh-WC-tKy">
+            <objects>
+                <viewController id="4LW-H1-hUg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XDx-Ln-VxD"/>
+                        <viewControllerLayoutGuide type="bottom" id="dCh-0H-4aW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xqn-sL-ZS4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAn-ez-oRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488.5" y="1916.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eU6-lA-NcN">
+            <objects>
+                <viewController id="V2p-Qg-izc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g4W-Mu-Uxw"/>
+                        <viewControllerLayoutGuide type="bottom" id="dzZ-50-Egz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sjc-cC-FEj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qef-4c-ZHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92.5" y="1916.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DGr-v0-zXS">
+            <objects>
+                <viewController id="Ot9-FL-4h9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="biZ-KK-fp6"/>
+                        <viewControllerLayoutGuide type="bottom" id="g5O-9p-eLl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xrD-vD-zB5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hsP-l1-wQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488.5" y="1168.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.png" width="167" height="170"/>
+        <image name="2.png" width="167" height="170"/>
+        <image name="3.png" width="167" height="170"/>
+        <image name="4.png" width="167" height="170"/>
+        <image name="5.png" width="167" height="170"/>
+        <image name="6.png" width="167" height="170"/>
+        <image name="7.png" width="167" height="170"/>
+        <image name="A.png" width="71" height="170"/>
+        <image name="B.png" width="71" height="170"/>
+        <image name="C.png" width="71" height="170"/>
+        <image name="D.png" width="71" height="170"/>
+        <image name="E.png" width="71" height="170"/>
+        <image name="F.png" width="71" height="170"/>
+        <image name="G.png" width="71" height="170"/>
+        <image name="Top.png" width="502" height="884"/>
+        <image name="sita.png" width="167" height="170"/>
+        <image name="title.png" width="454" height="156"/>
+        <image name="ue.png" width="167" height="170"/>
+    </resources>
 </document>
